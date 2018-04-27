@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.5rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; 
+}
+
+.siteimage{
+    background-image: url("../images/img_head.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 50px;
+}
+
+/* main */
+#category {
+    width: 100%;
+    height: 200px;
+}
+
+#category h1 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.BoxA {
+    max-width: 100%;
+    margin-top: 30px;
+}
+.box1 {
+    float: left;
+    margin-right: 1.33%;
+    width: 32%;
+    background: #696969;
+}
+
+.box1 .box-title {
+    font-size: 1.2em;
+    background: #c0c0c0;
+    text-align: center;
+    color: #696969;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box1 p {
+    padding: 15px 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+/* button */
+
+.footer {
+    width: 100%;
+    height: 150px;
+    clear: both;
+    background: #dcdcdc;
+}
+.footer p {
+    padding: 20px 0 5px 0;
+    font-size: 1em;
+    line-height: 1.429;
+    text-align: center;
+}    
+.footer .button {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+    line-height:1.429;
+    color: #ffffff;
+    background: #808080;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radious: 5px;
+}
+
+@media (max-width: 768px) {
+    
+.siteimage{
+  height: 250px;
+}
+
+.box1 {
+    width: 98%;
+    margin: 10px 1%;
+}
+
+
+    
+}
+
